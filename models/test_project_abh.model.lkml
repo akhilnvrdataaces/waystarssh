@@ -2,6 +2,7 @@ connection: "mysql-server2"
 
 # include all the views
 include: "/views/**/*.view"
+# testing for change
 
 datagroup: test_project_abh_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
